@@ -8,11 +8,13 @@
 ![Google Sheets API](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=google-sheets&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black)
 
+Read in: [Português](README.pt-br.md) | [English](README.md)
+
 Web application developed for the **UFAM School of Dentistry** to digitize patient registration and vital signs collection during school health screenings.
 
-🔗 **Live Demo:** https://pace-2025-rcn7.onrender.com/
+**Live Demo:** https://pace-2025-rcn7.onrender.com/
 
-## 💡 Context
+## Context
 
 During health screening events organized by UFAM's School of Dentistry, all patient data was recorded on paper — slowing down appointments and risking loss of research data.
 
@@ -20,7 +22,7 @@ This system digitizes the entire process: dentistry students fill out a form, th
 
 **Results:** used by **6 dentistry students** to register **18 patients**, eliminating paper and making data instantly available for academic analysis.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 pace-2025/
@@ -40,26 +42,26 @@ pace-2025/
 └─ README.md
 ```
 
-## ⚙️ How It Works
+## How It Works
 
 1. Dentistry student fills in patient data (name, age, sex, weight, height, blood pressure, temperature)
 2. **"Gerar tabela do paciente"** — runs client-side calculations and displays a color-coded summary with BMI classification, blood pressure stage, and temperature state
 3. **"Enviar para Google Sheets"** — backend sends all data (including calculated fields) to a shared spreadsheet via Google Sheets API with Service Account auth
 4. Dentistry students and professors access the spreadsheet directly for research analysis.
 
-## 🔧 Why Google Sheets as the Database?
+## Why Google Sheets as the Database?
 
 Deliberate choice, not a limitation. The end users (dentistry students and professors) needed to access, filter, and analyze patient data without any technical tools. Google Sheets gave them a familiar interface with zero training required.
 
-## 🔐 Authentication
+## Authentication
 
 The system uses a Google Service Account to securely authenticate requests to the Google Sheets API. Credentials are stored locally and accessed through environment variables.
 
-## 📖 References
+## References
 
 - [express](https://expressjs.com/)
 - [google API](https://developers.google.com/workspace/sheets/api/guides/concepts?hl=pt-br)
 
-## 👨‍💻 Author
+## Author
 
-**Lucas Nicolau** — Software Engineering Student at [@UFAM](https://www.ufam.edu.br).
+**Lucas Nicolau** — Software Engineering Student at @UFAM
