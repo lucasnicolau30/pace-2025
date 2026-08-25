@@ -8,7 +8,7 @@
 ![Google Sheets API](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=google-sheets&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black)
 
-Leia em: [Português](README.pt-br.md) | [English](README.md)
+Leia em: Português | [English](README.md)
 
 Aplicação web desenvolvida para a **Faculdade de Odontologia da UFAM** para digitalizar o cadastro de pacientes e a coleta de sinais vitais durante triagens de saúde escolar.
 
@@ -64,4 +64,4 @@ O sistema usa uma Conta de Serviço do Google para autenticar com segurança as 
 
 ## Autor
 
-**Lucas Nicolau** — Estudante de Engenharia de Software na @UFAM
+Lucas Nicolau — Estudante de Engenharia de Software na @UFAM
