@@ -8,7 +8,7 @@
 ![Google Sheets API](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=google-sheets&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black)
 
-Read in: [Português](README.pt-br.md) | [English](README.md)
+Read in: [Português](README.pt-br.md) | English
 
 Web application developed for the **UFAM School of Dentistry** to digitize patient registration and vital signs collection during school health screenings.
 
@@ -64,4 +64,4 @@ The system uses a Google Service Account to securely authenticate requests to th
 
 ## Author
 
-**Lucas Nicolau** — Software Engineering Student at @UFAM
+Lucas Nicolau — Software Engineering Student at @UFAM
