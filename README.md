@@ -8,7 +8,7 @@
 ![Google Sheets API](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=google-sheets&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=black)
 
-Read in: [Português](README.pt-br.md) | English
+Read in: [Português](README.pt.md) | English
 
 Web application developed for the **UFAM School of Dentistry** to digitize patient registration and vital signs collection during school health screenings.
 
